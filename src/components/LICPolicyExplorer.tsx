@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Calculator, PiggyBank, Wallet, Clock, Shield, Landmark, Building2, ArrowUpRight } from 'lucide-react';
+import { PiggyBank, Wallet, Clock, Shield, Landmark, Building2, ArrowUpRight } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 interface Policy {
