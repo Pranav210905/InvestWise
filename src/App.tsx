@@ -13,6 +13,7 @@ import { InvestmentsAdvisor } from './pages/InvestmentsAdvisor';
 import { VideoGuides } from './pages/VideoGuides';
 import { Advice } from './components/Advicers';
 import Invest2 from './pages/InvestmentsAdvisor2'
+import { LICPolicyExplorer } from './components/LICPolicyExplorer';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
                 <Route path="/video-guides" element={<VideoGuides />} />
                 <Route path="/advice" element={<Advice/>}/>
                 <Route path='/investments_2' element={<Invest2 />}/>
+                <Route path="/lic" element={<LICPolicyExplorer/>}/>
               </Routes>
             </main>
             <Footer />
